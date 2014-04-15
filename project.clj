@@ -1,4 +1,4 @@
-(defproject static-cljs/lein-template "0.1.0"
+(defproject static-cljs/lein-template "0.1.1-SNAPSHOT"
   :description "Leiningen template to generate a static site generator with ClojureScript and Less CSS preconfigured"
   :url "https://github.com/devth/static-cljs"
   :lein-release {:deploy-via :clojars}
