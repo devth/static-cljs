@@ -12,7 +12,8 @@ Useful for building [SPAs](http://en.wikipedia.org/wiki/Single-page_application)
 lein new static-cljs NAME
 ```
 
-See the generated README for additional info on running and building.
+Generated project has support for running a dev server and exporting a static
+build for production.  See the generated README for more info.
 
 ## References
 
