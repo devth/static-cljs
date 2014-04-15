@@ -4,7 +4,7 @@ A Leiningen template for generating a static site that sets up a place for dev
 and prod configuration, configures ClojureScript and Less CSS, and sets up
 Bootstrap v3.1.1, Font Awesome 4.0.3 and jQuery 2.1.0.
 
-Useful for generating "static" [SPAs](http://en.wikipedia.org/wiki/Single-page_application) to S3.
+Useful for building [SPAs](http://en.wikipedia.org/wiki/Single-page_application) to deploy on S3.
 
 ## Usage
 
