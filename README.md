@@ -14,6 +14,13 @@ lein new static-cljs NAME
 
 See the generated README for additional info on running and building.
 
+## References
+
+- [Stasis](https://github.com/magnars/stasis)
+- [Optimus](https://github.com/magnars/optimus)
+- [ClojureScript](https://github.com/clojure/clojurescript)
+- [Less CSS](http://lesscss.org/)
+
 ## License
 
 Copyright © 2014 Trevor Hartman
