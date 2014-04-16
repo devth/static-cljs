@@ -2,6 +2,8 @@
   :description "{{raw-name}} static frontend"
   :url "http://example.com/FIXME"
   :dependencies [[org.clojure/clojure "1.5.1"]
+                 [org.clojure/clojurescript "0.0-2202"]
+                 [om "0.5.3"]
                  [cyg "0.1.4"]
                  [stasis "1.0.0"]
                  [ring "1.2.1"]
