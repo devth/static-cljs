@@ -16,8 +16,14 @@
   :ring {:handler {{raw-name}}.web/app}
   :aliases {"export" ["with-profile" "prod" "run" "-m" "build.core/export"]}
   :source-paths ["src" "build-src"]
+  :cljsbuild {:builds [{:source-paths ["src-cljs"]
+                        :compiler {:output-to "resources/public/beholder.js"
+                                   :output-dir "resources/public/target"
+                                   :optimizations :none
+                                   :source-map true}}]}
   :profiles {:prod {:resource-paths ["config/prod"]}
              :dev {:resource-paths ["config/dev"]
-                   :plugins [[lein-ring "0.8.10"]]
+                   :plugins [[com.cemerick/austin "0.1.4"]
+                             [lein-ring "0.8.10"]]
                    :dependencies [[me.raynes/conch "0.5.0"]]}}
   :target-path "target/%s")
